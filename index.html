@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Save Our Wildlife</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="container">
-      <h1>Save Our Wildlife</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Save Our Wildlife</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-      <div class="video-wrapper">
-        <video
-          id="wildlifeVideo"
-          controls
-          aria-label="Wildlife conservation promotional video"
-        >
-          <source src="wildlife.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+  <h1>Save Our Wildlife</h1>
 
-      <p class="description">
-        Every species lost is a thread pulled from the web of life. Join us in
-        protecting the animals, habitats, and ecosystems that make our planet
-        extraordinary. Together, we can make a difference before it is too late.
-      </p>
+  <video id="wildlifeVideo" controls>
+    <source src="wildlife.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-      <button id="toggleBtn" aria-controls="wildlifeVideo">
-        Hide Video
-      </button>
-    </main>
+  <p>
+    Wildlife is disappearing at an alarming rate due to habitat loss, 
+    poaching, and climate change. Every action we take today determines 
+    what future generations will inherit tomorrow. Do your part — protect 
+    our wildlife.
+  </p>
 
-    <script src="script.js"></script>
-  </body>
+  <button id="toggleBtn">Hide Video</button>
+
+  <script src="script.js"></script>
+</body>
 </html>
